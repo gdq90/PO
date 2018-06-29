@@ -1,0 +1,66 @@
+{
+  "uid" : "98ee4ff0b9e99639",
+  "name" : "Test.test_003",
+  "fullName" : "scripts.test_001.Test.test_003",
+  "historyId" : "2df13a0ee4810f8b335b3fcca0406045",
+  "time" : {
+    "start" : 1530174647588,
+    "stop" : 1530174647649,
+    "duration" : 61
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <scripts.test_001.Test object at 0x000001E2A2131D68>\n\n    def test_003(self):\n>       assert 0\nE       assert 0\n\nscripts\\test_001.py:8: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-R3A4NHC"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "1920-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "scripts.test_001"
+  }, {
+    "name" : "testClass",
+    "value" : "scripts.test_001"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test.test_003"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "98ee4ff0b9e99639.json",
+  "parameterValues" : [ ]
+}
